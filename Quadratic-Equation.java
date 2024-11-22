@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Quadratic_Equation {
+class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,8 +12,7 @@ class Quadratic_Equation {
         int c = scanner.nextInt();
 
         int D = (int) ((Math.pow(b, 2)) - 4 * a * c);
-
-        String format = a + "x^2 + " + b + "x + " + c;
+        
         System.out.printf("Format: %dx^2 + %dx + %d%n%n", a, b, c);
         System.out.println("D: " + D);
 
